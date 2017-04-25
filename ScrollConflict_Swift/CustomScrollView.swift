@@ -1,0 +1,21 @@
+//
+//  CustomScrollView.swift
+//  ScrollConflict_Swift
+//
+//  Created by Tech-zhangyangyang on 2017/4/25.
+//  Copyright © 2017年 Tech-zhangyangyang. All rights reserved.
+//
+
+import UIKit
+
+class CustomScrollView: UIScrollView {
+
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
+
+}

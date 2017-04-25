@@ -14,6 +14,9 @@
 		A01261AB1EAF45D6007A9D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01261A91EAF45D6007A9D08 /* LaunchScreen.storyboard */; };
 		A01261B61EAF45D6007A9D08 /* ScrollConflict_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01261B51EAF45D6007A9D08 /* ScrollConflict_SwiftTests.swift */; };
 		A01261C11EAF45D6007A9D08 /* ScrollConflict_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01261C01EAF45D6007A9D08 /* ScrollConflict_SwiftUITests.swift */; };
+		A01261D01EAF45EE007A9D08 /* btn_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01261CE1EAF45EE007A9D08 /* btn_back@3x.png */; };
+		A01261D11EAF45EE007A9D08 /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01261CF1EAF45EE007A9D08 /* btn_back@2x.png */; };
+		A01261D51EAF4644007A9D08 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01261D41EAF4644007A9D08 /* CustomScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A01261BC1EAF45D6007A9D08 /* ScrollConflict_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollConflict_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01261C01EAF45D6007A9D08 /* ScrollConflict_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollConflict_SwiftUITests.swift; sourceTree = "<group>"; };
 		A01261C21EAF45D6007A9D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01261CE1EAF45EE007A9D08 /* btn_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@3x.png"; sourceTree = "<group>"; };
+		A01261CF1EAF45EE007A9D08 /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		A01261D41EAF4644007A9D08 /* CustomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		A012619F1EAF45D6007A9D08 /* ScrollConflict_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A01261D41EAF4644007A9D08 /* CustomScrollView.swift */,
+				A01261CE1EAF45EE007A9D08 /* btn_back@3x.png */,
+				A01261CF1EAF45EE007A9D08 /* btn_back@2x.png */,
 				A01261A01EAF45D6007A9D08 /* AppDelegate.swift */,
 				A01261A21EAF45D6007A9D08 /* ViewController.swift */,
 				A01261A41EAF45D6007A9D08 /* Main.storyboard */,
@@ -232,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01261D11EAF45EE007A9D08 /* btn_back@2x.png in Resources */,
 				A01261AB1EAF45D6007A9D08 /* LaunchScreen.storyboard in Resources */,
+				A01261D01EAF45EE007A9D08 /* btn_back@3x.png in Resources */,
 				A01261A81EAF45D6007A9D08 /* Assets.xcassets in Resources */,
 				A01261A61EAF45D6007A9D08 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +272,7 @@
 			files = (
 				A01261A31EAF45D6007A9D08 /* ViewController.swift in Sources */,
 				A01261A11EAF45D6007A9D08 /* AppDelegate.swift in Sources */,
+				A01261D51EAF4644007A9D08 /* CustomScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

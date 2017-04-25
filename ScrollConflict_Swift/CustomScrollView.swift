@@ -40,11 +40,10 @@ class CustomScrollView: UIScrollView {
     func panBack(gestureRecognizer: UIGestureRecognizer) -> Bool {
         if gestureRecognizer == self.panGestureRecognizer {
             let pan:UIPanGestureRecognizer! = UIPanGestureRecognizer()
-            let point = pan.translation(in: self)
             let state:UIGestureRecognizerState = pan.state
             if state == UIGestureRecognizerState.began || state == UIGestureRecognizerState.possible {
-                let location = gestureRecognizer.location(in: self)
-                if point.x > 0 && location.x < 100 && self.contentOffset.x <= 0{
+                let location:CGPoint = gestureRecognizer.location(in: self)
+                if location.x < 100 && self.contentOffset.x <= 0{
                     return true
                 }
             }

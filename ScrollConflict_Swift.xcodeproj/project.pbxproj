@@ -17,6 +17,7 @@
 		A01261D01EAF45EE007A9D08 /* btn_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01261CE1EAF45EE007A9D08 /* btn_back@3x.png */; };
 		A01261D11EAF45EE007A9D08 /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01261CF1EAF45EE007A9D08 /* btn_back@2x.png */; };
 		A01261D51EAF4644007A9D08 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01261D41EAF4644007A9D08 /* CustomScrollView.swift */; };
+		A01261D71EAF4BC5007A9D08 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01261D61EAF4BC5007A9D08 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A01261CE1EAF45EE007A9D08 /* btn_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@3x.png"; sourceTree = "<group>"; };
 		A01261CF1EAF45EE007A9D08 /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
 		A01261D41EAF4644007A9D08 /* CustomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		A01261D61EAF4BC5007A9D08 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				A01261CE1EAF45EE007A9D08 /* btn_back@3x.png */,
 				A01261CF1EAF45EE007A9D08 /* btn_back@2x.png */,
 				A01261A01EAF45D6007A9D08 /* AppDelegate.swift */,
+				A01261D61EAF4BC5007A9D08 /* SecondVC.swift */,
 				A01261A21EAF45D6007A9D08 /* ViewController.swift */,
 				A01261A41EAF45D6007A9D08 /* Main.storyboard */,
 				A01261A71EAF45D6007A9D08 /* Assets.xcassets */,
@@ -202,7 +205,8 @@
 				TargetAttributes = {
 					A012619C1EAF45D6007A9D08 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = Y5ZP3NDNWZ;
+						ProvisioningStyle = Manual;
 					};
 					A01261B01EAF45D6007A9D08 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -272,6 +276,7 @@
 			files = (
 				A01261A31EAF45D6007A9D08 /* ViewController.swift in Sources */,
 				A01261A11EAF45D6007A9D08 /* AppDelegate.swift in Sources */,
+				A01261D71EAF4BC5007A9D08 /* SecondVC.swift in Sources */,
 				A01261D51EAF4644007A9D08 /* CustomScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,10 +429,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang yutao (NFYLFAMW3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wang yutao (NFYLFAMW3H)";
+				DEVELOPMENT_TEAM = Y5ZP3NDNWZ;
 				INFOPLIST_FILE = ScrollConflict_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yirendai.ScrollConflict-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.yidingying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5f1641c-bf6d-46d4-b71c-a9254528101d";
+				PROVISIONING_PROFILE_SPECIFIER = "GCApp-Dev";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -436,9 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang yutao (NFYLFAMW3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wang yutao (NFYLFAMW3H)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScrollConflict_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yirendai.ScrollConflict-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.yidingying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
